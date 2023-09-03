@@ -1,0 +1,23 @@
+/* Add this CSS in your styles file */
+.slide-element {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+.slide-element.slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
