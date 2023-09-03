@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alex00garin.github.io/personal-website",
+  "homepage": "https://alex00garin.github.io/personal-website-next.js",
   "name": "project-7",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "lint": "next lint",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.7",

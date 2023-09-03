@@ -75,7 +75,7 @@ export default function HomePage() {
                 <div id="text-4" className="block text-center font-outfit justify-center items-center md:top-72 z-10">
                     <h1 className="text-dark-gray text-4xl md:text-6xl dark:text-light-cream">Hi, I'm Alex</h1>
                     <p className="text-dark-gray font-light mt-10 mx-20 text-lg md:text-2xl dark:text-light-cream">This is my official portfolio website where I showcase all of my work related to software development.</p>
-                    <a target={'_blank'} href='#' className="mt-10 md:mt-15 inline-flex items-center justify-center px-5 py-3 text-base font-light text-center text-dark-gray bg-neutral-200 rounded-lg hover:bg-dark-gray hover:text-neutral-200 focus:ring-1 focus:ring-dark-gray dark:focus:ring-dark-gray">
+                    <a target={'_blank'} href='.//Aleksandr_Garin_CV.pdf' className="mt-10 md:mt-15 inline-flex items-center justify-center px-5 py-3 text-base font-light text-center text-dark-gray bg-neutral-200 rounded-lg hover:bg-dark-gray hover:text-neutral-200 focus:ring-1 focus:ring-dark-gray dark:focus:ring-dark-gray">
                         Download CV
                         <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                           <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
