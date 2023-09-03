@@ -17,7 +17,7 @@ export default function AboutPage() {
         }, { 
             delay: 1,
             threshold: 1,
-            duration: 2,
+           // duration: 2,
         });
     
         listItems.forEach(item => {
