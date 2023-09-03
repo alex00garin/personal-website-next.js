@@ -1,15 +1,13 @@
 {
-  "homepage": "https://alex00garin.github.io/personal-website-next.js",
   "name": "project-7",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "build": "next build",
+    "export": "next export"
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.7",
