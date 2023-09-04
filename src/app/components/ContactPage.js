@@ -59,11 +59,11 @@ const ContactPage = () => {
             <form action="#" id="contactForm" className="space-y-8 justify-center">
                 <div>
                     <label htmlFor="name" className="font-outfit block mb-2 text-sm font-medium text-dark-gray dark:text-light-cream">Your name</label>
-                    <input onChange={(event)=>setName(event.target.value)} type="text" id="name" className="font-outfit block p-3 w-full text-sm text-neutral-200 bg-neutral-200 rounded-lg border border-gray-300 shadow-sm focus:ring-1 focus:outline-none focus:ring-dark-gray" placeholder="Write your name here" required />
+                    <input onChange={(event)=>setName(event.target.value)} type="text" id="name" className="font-outfit block p-3 w-full text-sm text-dark-gray bg-neutral-200 rounded-lg border border-gray-300 shadow-sm focus:ring-1 focus:outline-none focus:ring-dark-gray" placeholder="Write your name here" required />
                 </div>
                 <div>
                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-dark-gray dark:text-light-cream">Your email</label>
-                    <input onChange={(event)=>setEmail(event.target.value)} type="email" id="email" className="block p-3 w-full text-sm text-neutral-200 bg-neutral-200 rounded-lg border border-gray-300 shadow-sm focus:ring-1 focus:outline-none focus:ring-dark-gray" placeholder="your@email.com" required />
+                    <input onChange={(event)=>setEmail(event.target.value)} type="email" id="email" className="block p-3 w-full text-sm text-dark-gray bg-neutral-200 rounded-lg border border-gray-300 shadow-sm focus:ring-1 focus:outline-none focus:ring-dark-gray" placeholder="your@email.com" required />
                 </div>
                 <div className="sm:col-span-2">
                     <label htmlFor="message" className="block mb-2 text-sm font-medium text-dark-gray dark:text-light-cream">Your message</label>
