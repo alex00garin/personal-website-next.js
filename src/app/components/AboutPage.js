@@ -14,10 +14,9 @@ export default function AboutPage() {
               entry.target.classList.remove('slide-in');
             }
           });
-        }, { 
-            delay: 1,
-            threshold: 1,
-           // duration: 2,
+        }, 
+        {
+            threshold: 1
         });
     
         listItems.forEach(item => {
