@@ -1,11 +1,11 @@
 /* Add this CSS in your styles file */
 .slide-element {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease;
-  }
-  
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
 .slide-element.slide-in {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
