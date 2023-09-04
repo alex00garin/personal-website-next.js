@@ -14,10 +14,9 @@ export default function AboutPage() {
               entry.target.classList.remove('slide-in');
             }
           });
-        }, { 
-            delay: 1,
+        }, 
+        { 
             threshold: 1,
-         // duration: 2,
         });
     
         listItems.forEach(item => {
@@ -71,9 +70,9 @@ export default function AboutPage() {
                 </div>
 
                 <div className="block right-0 my-auto">    
-                    <h1 className="text-dark-gray dark:text-neutral-300 text-2xl md:text-4xl text-start mt-10 md:mt-0 font-outfit">Software Developer Jurney</h1>
+                    <h1 className="text-dark-gray dark:text-neutral-300 text-2xl md:text-3xl text-start mt-10 md:mt-0 font-bold">Software Developer Jurney</h1>
 
-                    <ol className="block mt-10 md:mt-16 border-l border-neutral-200 dark:border-neutral-700 justify-start text-left ml-5">                  
+                    <ol className="block mt-10 md:mt-12 border-l border-neutral-200 dark:border-neutral-700 justify-start text-left ml-5">                  
                         <li className="mb-5 ml-8 text-left slide-element">            
                             <span className="absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -left-3 ring-8 ring-dark-gray dark:text-neutral-300 dark:ring-dark-gray dark:bg-neutral-600">
                                 <svg className="w-2.5 h-2.5 text-dark-gray dark:text-neutral-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -124,13 +123,13 @@ export default function AboutPage() {
                             <time className="flex mb-2 ml-7 text-sm font-normal leading-none text-neutral-700 dark:text-neutral-500">August 2023</time>
                             <p className="text-base font-normal text-neutral-500 dark:text-neutral-400">I am learning how to built fast and search-friendly sites.</p>
                         </li>
-                        <li className="mb-5 ml-8 text-left slide-element">
+                        <li className=" ml-8 text-left slide-element">
                             <span className="absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -left-3 ring-8 ring-dark-gray dark:text-neutral-300 dark:ring-dark-gray dark:bg-neutral-600">
                                 <svg className="w-2.5 h-2.5 text-dark-gray dark:text-neutral-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                                 </svg>
                             </span>
-                            <h3 className="flex mb-1 ml-8 text-md font-semibold text-dark-gray dark:text-neutral-300">Python/Java</h3>
+                            <h3 className="flex mb-1 ml-8 text-md font-semibold text-dark-gray dark:text-neutral-300">Python/Java/C#</h3>
                             <time className="flex mb-2 ml-7 text-sm font-normal leading-none text-neutral-700 dark:text-neutral-500">...</time>
                             <p className="text-base font-normal text-neutral-500 dark:text-neutral-400">Aiming to master Python and Java for diverse applications.</p>
                         </li>
