@@ -15,8 +15,8 @@ export default function AboutPage() {
             }
           });
         }, 
-        { 
-            threshold: 1,
+        {
+            threshold: 1
         });
     
         listItems.forEach(item => {
